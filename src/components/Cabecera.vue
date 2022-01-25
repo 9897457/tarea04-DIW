@@ -13,7 +13,7 @@
           </ul>
         </nav>
         <form @submit.prevent="handleEnviar">
-          <input type="text" placeholder="Buscar productos ...">
+          <input type="text" v-model="buscar" placeholder="Buscar productos ...">
           <button id="boton">Buscar</button>
         </form>
         <nav>
@@ -29,11 +29,18 @@
 <script>
 export default {
   name: 'Cabecera',
-    methods: {
-        handleSutmit() {
-            console.log("Busqueda enviada")
-        }
+  data() {
+    return {
+      buscar: "",
     }
+  },
+  methods: {
+    handleEnviar() {
+      console.log("Busqueda enviada. Se ha introducido: "+this.buscar);
+      this.buscar = '';
+        
+    }
+  }
 }
 </script>
 

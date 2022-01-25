@@ -15,7 +15,8 @@ export default {
 <style scoped>
   #breadcrumb {
     display:flex;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
     color: #1abc9c;
   }
 

@@ -15,7 +15,7 @@
           </nav>
         </div>
         <nav id="menu2">
-          <ul>
+          <ul id="lista">
             <li><a href="#">INICIO</a></li>
             <li><a href="#">ORDENADORES</a></li>
             <li><a href="#">TV</a></li>
@@ -56,7 +56,6 @@ export default {
   #menus {
     border: 2px solid #000a08;
     z-index:999;
-    padding:0.7rem;
     display: flex;
     flex-direction: column;
   }
@@ -70,11 +69,12 @@ export default {
 
   #menus nav ul li a {
     display: flex;
-    justify-content: space-between;
     text-decoration: none;
     color:#1abc9c;
     font-weight: 700;
-    padding: 0.5rem 1rem;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   #menus nav ul li a:hover, #boton:hover{
@@ -115,6 +115,16 @@ export default {
   #menu1 {
     display: flex;
     flex-direction: row;
+    align-items: center;
+  }
+
+  #menu2 {
+    border-top: 2px solid black;
+  }
+
+  #lista{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
   }
 </style>

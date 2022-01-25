@@ -37,7 +37,7 @@ export default {
 <style scoped>
   #imagenes {
     border-radius: 25px;
-    padding: 1rem;
+    padding:  0 1rem 1rem 1rem;
     margin: 1rem;
     flex: 0 1 50%;
   }

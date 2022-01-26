@@ -16,7 +16,7 @@
    </div>
   
    <div id="fila2">
-      <p> Carolina Hern&aacute;ndez - Todos los derechos reservados <br> Versi&oacute;n: 006. Copyright © 2022  </p>
+      <p> Carolina Hern&aacute;ndez - Todos los derechos reservados <br> Versi&oacute;n: 007. Copyright © 2022  </p>
         <div id="iconos">
           <a href="#"><img src="../assets/fb.png" alt="Logo facebook"></a>
           <a href="#"><img src="../assets/twitter.png" alt="Logo twitter"></a>

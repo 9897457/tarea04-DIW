@@ -1,8 +1,8 @@
 <template>
   <section id="breadcrumb">
-      <a class="inicio" href="#">Inicio</a>>
+      <a id="inicio" href="#">Inicio</a>>
       <a href="#">Ordenadores</a>>
-      <a class="actual" href="#">Ordenador portátil</a> 
+      <a id="actual" href="#">Ordenador portátil</a> 
   </section>
 </template>
 
@@ -28,6 +28,11 @@ export default {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     color: #1abc9c;
+}
+
+#actual {
+    font-weight: 700;
+
 }
 
 </style>

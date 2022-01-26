@@ -24,7 +24,11 @@
            
       </div>
       <br>
-      <button id="btnCompra"><span class="material-icons">shopping_cart</span> AÑADIR CARRITO</button>
+      <div id="btns">
+        <button id="btnFav"><span class="material-icons">favorite_border</span> </button>
+        <button id="btnCompra"><span class="material-icons">shopping_cart</span> AÑADIR CARRITO</button>
+      </div>
+      
   </section>
 </template>
 
@@ -139,6 +143,16 @@ button:focus, input:focus {
   height: 3rem;
 }
 
+#btnFav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  margin-right: 1rem;
+  width: 3rem;
+  height: 3rem;
+}
+
 #cantidad {
   display: flex;
   align-items: center;
@@ -150,4 +164,8 @@ button:focus, input:focus {
   padding-right: 0.5rem;
 }
   
+#btns {
+  display: flex;
+  flex-direction: row;
+}
 </style>

@@ -1,6 +1,30 @@
 <template>
  <footer id="pie">
-    <p>© Copyright 2022 - Todos los derechos reservados </p>
+   <img id="logo" src="../assets/logo.png" alt="Logo de la empresa">
+   <div id="fila1">
+      <a href="#"><p>Condiciones de venta</p></a>
+      <p class="espacio">&nbsp;</p>
+      <a href="#"><p>Informaci&oacute;n legal</p></a>
+      <p class="espacio">&nbsp;</p>
+      <a href="#"><p>Pol&iacute;tica de privacidad</p></a>
+      <p class="espacio">&nbsp;</p>
+      <a href="#"><p>Pol&iacute;tica de cookies</p></a>
+      <p class="espacio">&nbsp;</p>
+      <a href="#"><p>Contactar</p></a>
+      <p class="espacio">&nbsp;</p>
+      <a href="#"><p>Trabaja con nosotros</p></a>
+   </div>
+  
+   <div id="fila2">
+      <p>Versi&oacute;n: 005. Copyright © 2022 <br>Carolina Hern&aacute;ndez - Todos los derechos reservados </p>
+        <div id="iconos">
+          <a href="#"><img src="../assets/fb.png" alt="Logo facebook"></a>
+          <a href="#"><img src="../assets/twitter.png" alt="Logo twitter"></a>
+          <a href="#"><img src="../assets/instagram.png" alt="Logo instagram"></a>
+          <a href="#"><img src="../assets/yt.png" alt="Logo youtube"></a>
+        </div>
+      <p>Todas las marcas son propiedad de sus respectivos fabricantes. <br>Todos los impuestos incluidos.</p>
+   </div>
   </footer>
 </template>
 
@@ -11,5 +35,71 @@ export default {
 </script>
 
 <style scoped>
+#pie {
+    background-color: #1abc9c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
 
+#pie p {
+    padding: 1rem;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+#logo{
+  padding-top: 2rem;
+  margin-right: 5rem;
+}
+
+#fila1 {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin-right: 4.5rem;
+}
+
+#fila2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#fila2 p {
+    color: rgb(68, 68, 68);
+}
+
+#iconos {
+  display: flex;
+  margin: 0 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+#iconos img{
+  height: 3rem;
+  width: 3rem;
+  padding: 0 1rem 2rem 1em;
+  display: flex;
+
+}
+
+.espacio {
+  display: flex;
+  width: 7rem;
+}
+
+  #pie a {
+    text-decoration: none;
+  }
+
+  #pie a p:hover {
+    background-color:black;
+    text-decoration: none;
+    color:white;
+  }
 </style>

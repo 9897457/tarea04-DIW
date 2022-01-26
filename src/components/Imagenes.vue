@@ -36,10 +36,12 @@ export default {
 
 <style scoped>
   #imagenes {
+    display: flex;
     border-radius: 25px;
     padding:  0 1rem 1rem 1rem;
     margin: 1rem;
-    flex: 0 1 50%;
+    flex-direction: column;
+
   }
   #imgPequenya {
     display: flex;

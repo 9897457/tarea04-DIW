@@ -16,14 +16,14 @@
    </div>
   
    <div id="fila2">
-      <p>Versi&oacute;n: 005. Copyright © 2022 <br>Carolina Hern&aacute;ndez - Todos los derechos reservados </p>
+      <p> Carolina Hern&aacute;ndez - Todos los derechos reservados <br> Versi&oacute;n: 006. Copyright © 2022  </p>
         <div id="iconos">
           <a href="#"><img src="../assets/fb.png" alt="Logo facebook"></a>
           <a href="#"><img src="../assets/twitter.png" alt="Logo twitter"></a>
           <a href="#"><img src="../assets/instagram.png" alt="Logo instagram"></a>
           <a href="#"><img src="../assets/yt.png" alt="Logo youtube"></a>
         </div>
-      <p>Todas las marcas son propiedad de sus respectivos fabricantes. <br>Todos los impuestos incluidos.</p>
+      <p>Todas las marcas son propiedad de sus respectivos fabricantes. <br> odos los impuestos incluidos </p>
    </div>
   </footer>
 </template>
@@ -90,7 +90,7 @@ export default {
 
 .espacio {
   display: flex;
-  width: 7rem;
+  width: 0.5rem;
 }
 
   #pie a {

@@ -42,7 +42,6 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
 }
 
 #body {
@@ -65,6 +64,7 @@ export default {
 #producto {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 #datosProducto {

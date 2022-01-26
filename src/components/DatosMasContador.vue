@@ -2,7 +2,7 @@
   <section id="datosMasContador">
       <h1>Portátil Huawei MateBook X</h1>
       <div id="precio">
-        <h2>750,69€</h2> <p id="iva1">SIN IVA: <br>620,41€</p>
+        <h2>1.499€</h2> <p id="iva1">SIN IVA: <br>1238,85€</p>
       </div>
       <div id="informacion">
         <div id="titulos">
@@ -13,7 +13,7 @@
         </div>
         <div id="descripcion">
           <span id="envio"> ¡¡ENV&Iacute;O GRATIS!!</span> 
-          <span id="marca"> <a href="#">HUAWEI</a> - P/N: 53019689 | Cod. Art&iacute;culo: 254954</span>
+          <span id="marca"> <a href="#">HUAWEI</a> - P/N: 53019689 | Cod. Art&iacute;culo: 141014</span>
           <div id="cantidad">
             <button class="btn" @click="cambiarContador('-1')" type="button" name="btn">-</button>
             <input id="cantidadInput" type="text" name="name" :value="contador">

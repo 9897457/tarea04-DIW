@@ -43,13 +43,12 @@ export default {
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
-  margin-top: 1rem;
 }
 
 #body {
   display: flex;
   flex-direction: column;
-  max-width: 1400px;
+  background-color: white;
   margin: auto;
 }
 

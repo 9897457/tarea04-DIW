@@ -24,8 +24,8 @@
       </div>
       <br>
       <div id="btns">
-        <button id="btnFav"><span class="material-icons">favorite_border</span> </button>
-        <button id="btnCompra"><span class="material-icons">shopping_cart</span> AÑADIR CARRITO</button>
+        <button id="btnFav" class="btnsFavCompra"><span class="material-icons">favorite_border</span> </button>
+        <button id="btnCompra" class="btnsFavCompra"><span class="material-icons">shopping_cart</span> AÑADIR CARRITO</button>
       </div> 
   </section>
 </template>
@@ -117,6 +117,16 @@ h2 {
   height: 2rem;
 }
 
+.btn:hover {
+  background-color: #1abc9c;
+  color: white;
+}
+
+.btn:active {
+  background-color: black;
+  color: white;
+}
+
 button:focus, input:focus {
   outline: 0;
 }
@@ -166,5 +176,15 @@ button:focus, input:focus {
 #btns {
   display: flex;
   flex-direction: row;
+}
+
+.btnsFavCompra:hover {
+  background-color: #1abc9c;
+  color: white;
+}
+
+.btnsFavCompra:active {
+  background-color: black;
+  color: white;
 }
 </style>

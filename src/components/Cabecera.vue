@@ -2,9 +2,9 @@
   <section>
       <div id="menus">
         <div id="menu1">
-          <img src="../assets/logo.png" alt="Logo de la empresa">
+          <img src="../assets/logo.png" alt="Logo de la empresa" copyright="cc-by logo">
           <form @submit.prevent="handleEnviar">
-            <input type="text" v-model="buscar" placeholder="Buscar productos ...">
+            <input type="search" v-model="buscar" placeholder="Buscar productos ...">
             <button id="boton">Buscar</button>
           </form>
           <nav>

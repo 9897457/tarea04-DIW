@@ -52,5 +52,6 @@ export default {
     width: 100px;
     border:2px solid #d8d8d8;
     margin-left: 1rem;
+    cursor: pointer;
   }
 </style>

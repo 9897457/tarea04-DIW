@@ -3,15 +3,15 @@
    <img id="logo" src="../assets/logo.png" alt="Logo de la empresa">
    <div id="fila1">
       <a href="#"><p>Condiciones de venta</p></a>
-      <p class="espacio">&nbsp;</p>
+      <p class="espacio">|</p>
       <a href="#"><p>Informaci&oacute;n legal</p></a>
-      <p class="espacio">&nbsp;</p>
+      <p class="espacio">|</p>
       <a href="#"><p>Pol&iacute;tica de privacidad</p></a>
-      <p class="espacio">&nbsp;</p>
+      <p class="espacio">|</p>
       <a href="#"><p>Pol&iacute;tica de cookies</p></a>
-      <p class="espacio">&nbsp;</p>
+      <p class="espacio">|</p>
       <a href="#"><p>Contactar</p></a>
-      <p class="espacio">&nbsp;</p>
+      <p class="espacio">|</p>
       <a href="#"><p>Trabaja con nosotros</p></a>
    </div>
   
@@ -41,11 +41,13 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
 
 #pie p {
+    display: flex;
     padding: 1rem;
     margin: 0;
     color: black;
@@ -90,6 +92,8 @@ export default {
 
 .espacio {
   display: flex;
+  margin: 0;
+  padding: 0;
   width: 0.5rem;
 }
 

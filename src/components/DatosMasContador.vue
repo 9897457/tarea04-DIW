@@ -21,14 +21,12 @@
           </div>
           <span id="envioDomicilio">¡En stock! ¡Rec&iacute;belo el jueves 27 de enero!</span>
         </div>
-           
       </div>
       <br>
       <div id="btns">
         <button id="btnFav"><span class="material-icons">favorite_border</span> </button>
         <button id="btnCompra"><span class="material-icons">shopping_cart</span> AÑADIR CARRITO</button>
-      </div>
-      
+      </div> 
   </section>
 </template>
 
@@ -48,8 +46,6 @@ export default {
             }
         }
     }
-
-
 }
 
 </script>

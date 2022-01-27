@@ -1,13 +1,13 @@
 <template>
   <section id="imagenes">
       <div id="imgGrande"> 
-          <img v-bind:src="fotos[0]" alt="Portátil Huawei MateBoot X">
+          <img v-bind:src="fotos[0]" alt="Portátil Huawei MateBoot X" copyright="cc-by portatil-img-big">
       </div>
         <div id="imgPequenya">
-          <a @click="cambiarFoto(1)"><img  v-bind:src="fotos[1]" alt="Portátil Huawei MateBoot X"></a>
-          <a @click="cambiarFoto(2)"><img  v-bind:src="fotos[2]" alt="Portátil Huawei MateBoot X"></a>
-          <a @click="cambiarFoto(3)"><img  v-bind:src="fotos[3]" alt="Portátil Huawei MateBoot X"></a>
-          <a @click="cambiarFoto(4)"><img  v-bind:src="fotos[4]" alt="Portátil Huawei MateBoot X"></a>
+          <a @click="cambiarFoto(1)"><img v-bind:src="fotos[1]" alt="Portátil Huawei MateBoot X" copyright="cc-by portatil-img-small1"></a>
+          <a @click="cambiarFoto(2)"><img v-bind:src="fotos[2]" alt="Portátil Huawei MateBoot X" copyright="cc-by portatil-img-small2"></a>
+          <a @click="cambiarFoto(3)"><img v-bind:src="fotos[3]" alt="Portátil Huawei MateBoot X" copyright="cc-by portatil-img-small3"></a>
+          <a @click="cambiarFoto(4)"><img v-bind:src="fotos[4]" alt="Portátil Huawei MateBoot X" copyright="cc-by portatil-img-small4"></a>
         </div>
       </section>    
 </template>

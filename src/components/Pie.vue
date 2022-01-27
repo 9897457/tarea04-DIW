@@ -1,6 +1,6 @@
 <template>
  <footer id="pie">
-   <img id="logo" src="../assets/logo.png" alt="Logo de la empresa">
+   <img id="logo" src="../assets/logo.png" alt="Logo de la empresa" copyright="cc-by logo">
    <div id="fila1">
       <a href="#"><p>Condiciones de venta</p></a>
       <p class="espacio">|</p>
@@ -14,14 +14,13 @@
       <p class="espacio">|</p>
       <a href="#"><p>Trabaja con nosotros</p></a>
    </div>
-  
    <div id="fila2">
       <p> Carolina Hern&aacute;ndez - Todos los derechos reservados <br> Versi&oacute;n: 008. Copyright © 2022  </p>
         <div id="iconos">
-          <a href="#"><img src="../assets/fb.png" alt="Logo facebook"></a>
-          <a href="#"><img src="../assets/twitter.png" alt="Logo twitter"></a>
-          <a href="#"><img src="../assets/instagram.png" alt="Logo instagram"></a>
-          <a href="#"><img src="../assets/yt.png" alt="Logo youtube"></a>
+          <a href="#"><img src="../assets/fb.png" alt="Logo facebook" copyright="cc-by fb"></a>
+          <a href="#"><img src="../assets/twitter.png" alt="Logo twitter" copyright="cc-by twitter"></a>
+          <a href="#"><img src="../assets/instagram.png" alt="Logo instagram" copyright="cc-by instagram"></a>
+          <a href="#"><img src="../assets/yt.png" alt="Logo youtube" copyright="cc-by yt"></a>
         </div>
       <p>Todas las marcas son propiedad de sus respectivos fabricantes. <br> odos los impuestos incluidos </p>
    </div>

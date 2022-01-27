@@ -22,7 +22,7 @@
           <a href="#"><img src="../assets/instagram.png" alt="Logo instagram" copyright="cc-by instagram"></a>
           <a href="#"><img src="../assets/yt.png" alt="Logo youtube" copyright="cc-by yt"></a>
         </div>
-      <p>Todas las marcas son propiedad de sus respectivos fabricantes. <br> odos los impuestos incluidos </p>
+      <p>Todas las marcas son propiedad de sus respectivos fabricantes. <br> Todos los impuestos incluidos </p>
    </div>
   </footer>
 </template>

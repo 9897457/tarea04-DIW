@@ -130,7 +130,7 @@ export default {
     cursor: pointer;
     border: none;
     background-color: #1abc9c;
-
+    font-weight: 700;
   }
 
   #menu1 {

@@ -1,9 +1,9 @@
 <template>
   <section id="descripcion">
     <div id="titulos">
-      <a @click="change"><h4 id="titulo1">DESCRIPCI&Oacute;N DEL PRODUCTO</h4></a>
+      <a @click="change1"><h4 id="titulo1" :class="[estaActivo1 ? y : n]">DESCRIPCI&Oacute;N DEL PRODUCTO</h4></a>
       <p class="espacio">&nbsp;</p>
-      <a @click="change"><h4 class="titulo2">V&Iacute;DEO DEL PRODUCTO</h4></a>
+      <a @click="change2"><h4 id="titulo2" :class="[estaActivo2 ? y : n]">V&Iacute;DEO DEL PRODUCTO</h4></a>
     </div>
     <div id="txtTitulo1" v-if="click">
        <ul>
@@ -22,7 +22,11 @@
       </ul>
     </div>
     <div id="videoTitulo2" v-else>
-      <video-embed src="https://www.youtube.com/watch?v=s4ObxcdXoFE"></video-embed>
+      <video width="500" height="450" preload="auto" controls >
+        <source src="/assets/video.mp4" type="video/mp4">-
+        <!--<source src="video.ogg" type="video/ogg">-->
+      </video>
+      <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/Tx04g-sGrpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
     </div>
      
   </section>
@@ -30,9 +34,26 @@
 
 <script>
 export default {
+  
   data() {
     return {
-      click: false
+      click: true,
+      estaActivo1: true,
+      estaActivo2: false,
+      y: 'h4Activo',
+      n: 'h4NoActivo'
+    }
+  },
+  methods: {
+    change1() {
+      this.click= true;
+      this.estaActivo1=true;
+      this.estaActivo2=false;
+    },
+    change2() {
+      this.click= false
+      this.estaActivo1=false;
+      this.estaActivo2=true;
     }
   }
   
@@ -50,11 +71,23 @@ export default {
   margin-left: 25rem;
   margin-right: 25rem;
 }
-#descripcion #titulos h4 {
+#descripcion #titulos .h4NoActivo {
   display: flex;
-  color: #1abc9c;
-  border-bottom: 5px solid black;
+  color: black;
+  border-bottom: 5px solid #c4c4c4;
   padding: 1rem;
+}
+
+#descripcion #titulos .h4Activo {
+  display: flex;
+  color: black;
+  border-bottom: 5px solid #1abc9c;  
+  padding: 1rem;
+}
+
+#descripcion #titulos .h4NoActivo:hover,
+#descripcion #titulos .h4Activo:hover {
+  cursor: pointer;
 }
 
 #titulos {

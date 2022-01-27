@@ -116,6 +116,7 @@ h2 {
 }
 .btn {
   border: 1px solid #d8d8d8;
+  cursor: pointer;
   width: 2rem;
   height: 2rem;
 }
@@ -138,6 +139,7 @@ button:focus, input:focus {
   justify-content: space-between;
   align-items: center;
   border: 1px solid #d8d8d8;
+  cursor: pointer;
   padding: 1.3rem;
   width: 12rem;
   height: 3rem;
@@ -148,6 +150,7 @@ button:focus, input:focus {
   justify-content: center;
   align-items: center;
   border: 1px solid #d8d8d8;
+  cursor: pointer;
   margin-right: 1rem;
   width: 3rem;
   height: 3rem;

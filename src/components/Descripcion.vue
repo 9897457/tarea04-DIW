@@ -22,11 +22,11 @@
       </ul>
     </div>
     <div id="videoTitulo2" v-else>
-      <video width="500" height="450" preload="auto" controls >
-        <source src="/assets/video.mp4" type="video/mp4">-
-        <!--<source src="video.ogg" type="video/ogg">-->
-      </video>
-      <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/Tx04g-sGrpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+      <!--<video width="500" height="450" preload="auto" controls >
+        <source src="/assets/video.mp4" type="video/mp4">
+        <source src="video.ogg" type="video/ogg">
+      </video>-->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Tx04g-sGrpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
      
   </section>

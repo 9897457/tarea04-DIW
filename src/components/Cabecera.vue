@@ -95,13 +95,20 @@ export default {
     padding-right: 7.1rem;
   }
 
-
   #menus #menu1 ul li a:hover, 
   #menus #menu2 ul li a:hover,
   #boton:hover{
-    background-color:black;
     text-decoration: none;
-    color:white;
+    color: #439184;
+    font-weight: 700;
+  }
+
+  #menus #menu1 ul li a:active, 
+  #menus #menu2 ul li a:active,
+  #boton:active{
+    background-color: black;
+    color: white;
+    text-decoration: none;
     font-weight: 700;
   }
 
@@ -114,7 +121,6 @@ export default {
     outline: none;
     line-height: 1rem;
     font-size: 1rem;
-    
   }
 
   form {
@@ -162,4 +168,5 @@ export default {
     display: flex;
     padding-right: 1rem;
   }
+  
 </style>

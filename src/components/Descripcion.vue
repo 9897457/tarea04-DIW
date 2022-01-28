@@ -60,51 +60,51 @@ export default {
 
 <style scoped>
 
-#descripcion {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 1rem;
-  margin-left: 25rem;
-  margin-right: 25rem;
-}
-#descripcion #titulos .h4NoActivo {
-  display: flex;
-  color: black;
-  border-bottom: 5px solid #c4c4c4;
-  padding: 1rem;
-}
+  #descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+  }
+  #descripcion #titulos .h4NoActivo {
+    display: flex;
+    color: black;
+    border-bottom: 5px solid #c4c4c4;
+    padding: 1rem;
+  }
 
-#descripcion #titulos .h4Activo {
-  display: flex;
-  color: black;
-  border-bottom: 5px solid #1abc9c;  
-  padding: 1rem;
-}
+  #descripcion #titulos .h4Activo {
+    display: flex;
+    color: black;
+    border-bottom: 5px solid #1abc9c;  
+    padding: 1rem;
+  }
 
-#descripcion #titulos .h4NoActivo:hover,
-#descripcion #titulos .h4Activo:hover {
-  cursor: pointer;
-}
+  #descripcion #titulos .h4NoActivo:hover,
+  #descripcion #titulos .h4Activo:hover {
+    cursor: pointer;
+  }
 
-#titulos {
-  display: flex;
-  flex-direction: row;
-}
+  #titulos {
+    display: flex;
+    flex-direction: row;
+  }
 
-#descripcion ul{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  list-style: none;
-  padding: 0;
-  line-height: 1.5rem;
-}
+  #descripcion ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0;
+    line-height: 1.5rem;
+  }
 
-.espacio {
-  display: flex;
-  width: 3rem;
-}
+  .espacio {
+    display: flex;
+    width: 3rem;
+  }
 
 </style>

@@ -14,23 +14,22 @@
 
 <script>
 export default {
-    Name: 'ProductoImagen',
-    data () {
-        return {
-            fotos: [
-                require ('../assets/e1.jpg'),
-                require ('../assets/e1.jpg'),
-                require ('../assets/e2.jpg'),
-                require ('../assets/e3.jpg'),
-                require ('../assets/e4.jpg')]
-        }
-    },
-    methods: {
-        cambiarFoto(id) {
-            this.fotos[0] = this.fotos[id]
-        }
+  Name: 'ProductoImagen',
+  data () {
+    return {
+      fotos: [
+        require ('../assets/e1.jpg'),
+        require ('../assets/e1.jpg'),
+        require ('../assets/e2.jpg'),
+        require ('../assets/e3.jpg'),
+        require ('../assets/e4.jpg')]
     }
-
+  },
+  methods: {
+    cambiarFoto(id) {
+      this.fotos[0] = this.fotos[id]
+    }
+  }
 }
 </script>
 
@@ -41,17 +40,18 @@ export default {
     padding:  0 1rem 1rem 1rem;
     margin: 1rem;
     flex-direction: column;
-
   }
+
   #imgPequenya {
     display: flex;
     justify-content: center;
-
   }
+
   #imgPequenya img {
     width: 100px;
     border:2px solid #d8d8d8;
     margin-left: 1rem;
     cursor: pointer;
   }
+  
 </style>

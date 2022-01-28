@@ -19,7 +19,7 @@
             <input id="cantidadInput" type="text" name="name" :value="contador">
             <button class="btn" @click="cambiarContador('1')" type="button" name="btn">+</button>
           </div>
-          <span id="envioDomicilio">¡En stock! ¡Rec&iacute;belo el jueves 27 de enero!</span>
+          <span id="envioDomicilio">&nbsp;&nbsp;¡En stock! ¡Rec&iacute;belo el jueves 27 de enero!</span>
         </div>
       </div>
       <br>
@@ -33,12 +33,12 @@
 <script>
 export default {
   Name: 'ProductoDatos',
-    data () {
-        return {
-            contador: 1
-        }
-    },
-    methods: {
+  data () {
+    return {
+      contador: 1
+    }
+  },
+  methods: {
         cambiarContador(num) {
             this.contador += +num;
             if (!isNaN(this.contador) && (this.contador < 0)) {
@@ -52,139 +52,148 @@ export default {
 
 <style scoped>
 
-#datosMasContador {
-  margin-top: 5rem;
-}
+  #datosMasContador {
+    margin-top: 5rem;
+  }
 
-h1 {
-  display: flex;
-  font-size: 2.2rem;
-  margin: 2rem 0 0 0;
-  padding: 0;
-}
+  h1 {
+    display: flex;
+    font-size: 2.2rem;
+    margin: 2rem 0 0 0;
+    padding: 0;
+  }
 
-h2 {
-  font-size:3rem;
-  color: #1abc9c;
-  margin: 0;
-  padding: 0;
-}
+  h2 {
+    font-size:3rem;
+    color: #1abc9c;
+    margin: 0;
+    padding: 0;
+  }
 
-#precio {
-  display: flex;
-  flex-direction: row;
-}
+  #precio {
+    display: flex;
+    flex-direction: row;
+  }
 
-#iva1 {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  color: gray;
-}
+  #iva1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    color: gray;
+  }
 
-#informacion {
-  display: flex;
-  flex-direction: row;
-}
+  #informacion {
+    display: flex;
+    flex-direction: row;
+  }
 
-#datosMasContador #informacion p,
-#datosMasContador #informacion span {
-  display: flex;
-  padding: 0.5rem 0 0.5rem 0;
-  margin: 0.5rem 0 0.5rem 0;
-}
+  #datosMasContador #informacion p,
+  #datosMasContador #informacion span {
+    display: flex;
+    padding: 0.5rem 0 0.5rem 0;
+    margin: 0.5rem 0 0.5rem 0;
+  }
 
-#marca {
-  font-size: 0.9rem;  
-}
+  #marca {
+    font-size: 0.9rem;  
+  }
 
-#titulos {
-  margin-right: 1rem;
-}
+  #descripcion #marca a {
+    color: #1abc9c;
+  }
 
-#cantidadInput {
-  border: none;
-  text-align: center;
-  width: 2rem;
-  font-size: 1rem;
-}
-.btn {
-  border: 1px solid #d8d8d8;
-  cursor: pointer;
-  width: 2rem;
-  height: 2rem;
-}
+  #titulos {
+    margin-right: 1rem;
+  }
 
-.btn:hover {
-  background-color: #1abc9c;
-  color: white;
-}
+  #cantidadInput {
+    border: none;
+    text-align: center;
+    width: 2rem;
+    font-size: 1rem;
+  }
 
-.btn:active {
-  background-color: black;
-  color: white;
-}
+  .btn {
+    border: 1px solid #d8d8d8;
+    background-color: #1abc9c;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+  }
 
-button:focus, input:focus {
-  outline: 0;
-}
+  .btn:hover {
+    color: #439184;
+  }
 
-#envio {
-  color: #1abc9c;
-}
+  .btn:active {
+    background-color: black;
+    color: white;
+  }
 
-#envioDomicilio {
-  background-color: #1abc9c;
-  color: white;
-}
+  button:focus, input:focus {
+    outline: 0;
+  }
 
-#btnCompra {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid #d8d8d8;
-  cursor: pointer;
-  padding: 1.3rem;
-  width: 12rem;
-  height: 3rem;
-}
+  #envio {
+    color: #1abc9c;
+  }
 
-#btnFav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #d8d8d8;
-  cursor: pointer;
-  margin-right: 1rem;
-  width: 3rem;
-  height: 3rem;
-}
+  #envioDomicilio {
+    background-color: #cffaf1;
+    color: black;
+  }
 
-#cantidad {
-  display: flex;
-  align-items: center;
-}
-#datosMasContador #informacion #descripcion a {
-  text-decoration: none;
-  color:#1abc9c;
-  font-weight: 700;
-  padding-right: 0.5rem;
-}
-  
-#btns {
-  display: flex;
-  flex-direction: row;
-}
+  #btnCompra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d8d8d8;
+    cursor: pointer;
+    padding: 1.3rem;
+    width: 12rem;
+    height: 3rem;
+  }
 
-.btnsFavCompra:hover {
-  background-color: #1abc9c;
-  color: white;
-}
+  #btnFav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d8d8d8;
+    cursor: pointer;
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+  }
 
-.btnsFavCompra:active {
-  background-color: black;
-  color: white;
-}
+  #cantidad {
+    display: flex;
+    align-items: center;
+  }
+  #datosMasContador #informacion #descripcion a {
+    text-decoration: none;
+    color:#1abc9c;
+    font-weight: 700;
+    padding-right: 0.5rem;
+  }
+    
+  #btns {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btnsFavCompra {
+    background-color: #1abc9c;
+  }
+
+  .btnsFavCompra:hover {
+    color: #439184;
+  }
+
+  .btnsFavCompra:active {
+    background-color: black;
+    color: white;
+  }
+
 </style>

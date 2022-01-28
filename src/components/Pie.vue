@@ -15,7 +15,7 @@
       <a href="#"><p>Trabaja con nosotros</p></a>
    </div>
    <div id="fila2">
-      <p> Carolina Hern&aacute;ndez - Todos los derechos reservados <br> Versi&oacute;n: 008. Copyright © 2022  </p>
+      <p> Carolina Hern&aacute;ndez - Todos los derechos reservados <br> Versi&oacute;n: 010. Copyright © 2022  </p>
         <div id="iconos">
           <a href="#"><img src="../assets/fb.png" alt="Logo facebook" copyright="cc-by fb"></a>
           <a href="#"><img src="../assets/twitter.png" alt="Logo twitter" copyright="cc-by twitter"></a>
